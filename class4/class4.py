@@ -8,4 +8,6 @@ new_num = [11, 12, 13, 14, 15]
 
 
 
-for num i 
+for num in new_num:
+    list_num += [num]
+    print(list_num)

@@ -13,7 +13,16 @@ print(list_num)
 new_num = [11, 12, 13, 14, 15]
 
 
+fruits = ["apple", "banana"]
+new_fruits = ["mango", "malta"]
 
+all_fruits = [fruit for fruit in fruits] + [item for item in new_fruits]
+print(all_fruits)
+fruits[len(fruits):] = ["mango", "malta"]
+
+
+
+print(fruits)
 for num in new_num:
     list_num += [num]
     print(list_num)
